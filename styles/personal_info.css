@@ -1,0 +1,152 @@
+.info{
+    width: 1000px;
+    left: 50%;
+    margin-left: -500px;
+    position: relative;
+    margin-top: 35px;
+}
+#sidebox{
+    width: 160px;
+    height: auto;
+    color: rgb(250,250,250);
+}
+dl,dt,dd{
+    display:block;
+    margin:0;
+}
+#sidebox .icon{
+    font-size: 13px;
+    color: rgb(250,250,250);
+    margin-right: 5px;
+}
+#sidebox dl{
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+#sidebox dt{
+    background-color: rgb(33, 155, 236);
+    height: 26px;
+    padding-top: 7px;
+    cursor: pointer;
+}
+#sidebox dd{
+    background-color: rgb(250,250,250);
+    height: 25px;
+    padding-top: 7px;
+    /*border: 1px solid black;*/
+    font-size: 13px;
+}
+#sidebox dd a{
+    color: rgb(31, 31, 31);
+}
+#sidebox dd a:hover{
+    color: rgb(33, 155, 236);
+}
+
+#right-side{
+    width: 820px;
+    margin-left: 180px;
+    min-height: 380px;
+}
+.info-title{
+    width: 805px;
+    height: 28px;
+    padding-left: 15px;
+    padding-top: 7px;
+    font-size: 14px;
+    color: rgb(77, 77, 77);
+    background: -webkit-linear-gradient(top,rgb(245, 245, 245),rgb(220,220,220)); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(top,rgb(245, 245, 245),rgb(220,220,220)); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(top,rgb(245, 245, 245),rgb(220,220,220)); /* Firefox 3.6 - 15 */
+    background: linear-gradient(top,rgb(245, 245, 245),rgb(220,220,220)); 
+}
+.info-pro{
+    width: 820px;
+    min-height: 380px;
+    background-color: rgb(250,250,250);
+}
+.inside-border{
+    margin-left: 25px;
+    margin-right: 25px;
+    width: 770px;
+}
+.head-portrait, .set-nickname, .set-gender, .set-birthday, .set-hometown{
+    border-bottom: 1px solid rgb(220,220,220);
+    width: 770px;
+    height: 32px;
+    padding-top: 15px;
+}
+.head-portrait{
+    padding-top: 25px;
+    height: 70px;
+}
+.info-name{
+    width: 75px;
+    font-size: 14px;
+    color: rgb(77, 77, 77);
+}
+.change-nickname, .change-portrait{
+    color: rgb(33, 155, 236);
+    font-size: 13px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+.change-portrait{
+    margin-top: 33px;
+}
+.ur-nickname, .ur-gender, .ur-hometown, .ur-birthday{
+    color: rgb(77, 77, 77);
+    font-size: 14px;
+}
+.set-gender input{
+    margin: 0;
+    padding: 0;
+}
+.set-gender label{
+    color: rgb(77, 77, 77);
+    font-size: 14px;
+}
+#female{
+    margin-left: 8px;
+}
+.label{
+    color: rgb(77, 77, 77);
+    font-size: 14px;
+}
+.set-birthday select, .set-hometown select{
+    margin-right: 12px;
+}
+#save{
+    border: 0;
+    width: 150px;
+    height: 30px;
+    background-color: rgb(33, 155, 236);
+    color: rgb(250,250,250);
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 45px;
+    cursor: pointer;
+}
+#save:hover{
+    background-color: rgb(6, 140, 230);
+}
+.set-hometown span{
+    color: rgb(77, 77, 77);
+    font-size: 14px;
+}
+.new-nickname{
+    border: .5px solid rgb(168, 168, 168);
+    color: rgb(77, 77, 77);
+    margin-left: 3px;
+    margin-right: 5px;
+    height: 21px; 
+    border-radius: 2px;
+}
+.edit{
+    margin-right: 15px;
+    cursor: pointer;
+}
+.edit:hover{
+    color: rgb(33, 155, 236);
+}

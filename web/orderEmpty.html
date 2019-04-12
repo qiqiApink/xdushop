@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>我的收藏夹</title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" type="text/css" href="../styles/common.css">
+        <link rel="stylesheet" type="text/css" href="../styles/header.css">
+        <link rel="stylesheet" type="text/css" href="../styles/footer.css">
+        <link rel="stylesheet" type="text/css" href="../styles/orders.css">
+        <link rel="stylesheet" type="text/css" href="../styles/orderEmpty.css">
+    
+        <script src="../scripts/jquery-3.1.1.min.js"></script>
+        <script src="../scripts/orders.js"></script>
+    </head>
+    <body>
+        <!--页头-->
+        <header id="header">
+            <div id="in-header">
+                <div id="logo" class="fl">
+                    <a href="../home.html"><img src="../images/logo.png" alt="西电学子商城首页"/></a>
+                </div>
+                <div id="header-search" class="fl">
+                    <input id="input-search" type="text" class="fl" placeholder="请输入您要搜索的内容"/>
+                    <a href="../web/comingSoon.html" class="fl" id=""><img id="search" src="../images/header/search.png" alt="搜索"/></a>
+                </div>
+                <div id="header-table" class="fr">
+                    <ul class="fl">
+                        <li class="fl header-icon"><a href="../web/favourites.html" title="我的收藏"><span style="top: 5px; font-size: 20px;" class="icon">&#xf004;</span></a></li>
+                        <li class="line fl">|</li>
+                        <li class="fl header-icon"><a href="../web/orders.html" title="我的订单"><span style="top: 5px; font-size: 20px;" class="icon">&#xf02c;</span></a></li>
+                        <li class="line fl">|</li>
+                        <li class="fl header-icon"><a href="../web/cart.html" title="我的购物车"><span style="top: 5px; font-size: 20px;" class="icon">&#xf07a;</span></a></li>
+                        <li class="line fl">|</li>
+                        <li class="fl" id="user-login"><a href="../web/login.html" id="header-login">登录</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <!--导航条-->
+        <nav id="nav">
+            <ul>
+                <li class="fl" style="padding-left: 3px;"><a href="../home.html">首页</a></li>
+                <li class="fl"><a href="../home.html#electronic">电子产品</a></li>
+                <li class="fl"><a href="../home.html#stationery">学习用品</a></li>
+            </ul>
+        </nav>
+
+
+        <!--订单部分-->
+        <div class="orders">
+            <div id="sidebox" class="fl">
+                <dl class="all-orders">
+                    <dt id="all-tag" class="open">
+                        <span class="icon">&#xf0ca;</span>我的订单
+                        <img src="../images/myOrder/myOrder2.png" alt=""/>
+                    </dt>
+                    <dd>
+                        <a href="#">全部订单
+                            <span id="all-count"></span>
+                        </a>
+                    </dd>
+                    <dd>
+                        <a href="../web/comingSoon.html">待付款
+                            <span><!--待付款数量--></span>
+                        </a>
+                    </dd>
+                    <dd>
+                        <a href="../web/comingSoon.html">待收货
+                            <span><!--待收货数量--></span>
+                        </a>
+                    </dd>
+                    <dd>
+                        <a href="../web/comingSoon.html">待评价
+                            <span><!--待评价数量--></span>
+                        </a>
+                    </dd>
+                    <dd>
+                        <a href="../web/comingSoon.html">退款/售后</a>
+                    </dd>
+                </dl>
+
+                <dl class="coupon">
+                    <dt id="coupon-tag" class="close">
+                        <span class="icon">&#xf06b;</span>我的优惠券
+                        <img src="../images/myOrder/myOrder1.png" alt=""/>
+                    </dt>
+                    <dd>
+                        <a href="../web/comingSoon.html">全部优惠券</a>
+                    </dd>
+                    <dd>
+                        <a href="../web/comingSoon.html">获取优惠券</a>
+                    </dd>
+                </dl>
+
+            </div>
+
+
+            <div id="right-side" class="fl">
+
+                <div class="no-order">
+                    <p>这里还没有订单哦</p>
+                    <p id="gotoshop">
+                        <span>快去下单吧!</span><span><a href="../home.html">再去逛一逛</a></span>
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!--页脚-->
+        <footer>
+                <div class="footer-box01">
+                    <ul class="quality">
+                        <li>
+                            <img src="../images/footer/icon1.png" alt=""/>
+                            <p>品质保障</p>
+                        </li>
+                        <li>
+                            <img src="../images/footer/icon2.png" alt=""/>
+                            <p>私人定制</p>
+                        </li>
+                        <li>
+                            <img src="../images/footer/icon3.png" alt=""/>
+                            <p>学生特供</p>
+                        </li>
+                        <li>
+                            <img src="../images/footer/icon4.png" alt=""/>
+                            <p>专属特权</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-box02">
+                    <p id="p1">有问题或建议请联系：前端(<a>643342586@qq.com</a>)&nbsp;&nbsp;&nbsp;后端(<a href="#">1165394984@qq.com</a>)</p>
+                    <p id="p2">Copyright&nbsp;&copy;&nbsp;2018</p>
+                </div>
+        </footer>
+    
+            
+    
+    </body>
+</html>

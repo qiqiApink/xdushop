@@ -1,0 +1,203 @@
+#home{
+    width: 1002px;
+    left: 50%;
+    position: relative;
+    margin-left: -501px;
+}
+.electronic-title, .stationery-title{
+   /* margin-left: 131px;*/
+    width: 1002px;
+    height: 37px;
+    margin-top: 35px;
+    color: rgb(176, 176, 176);
+    font-size: 17px;
+    border-bottom: 2px dashed rgb(186, 186, 186);
+}
+.electronic, .stationery{
+    width: 1002px;
+    height: 620px;
+   /* margin-left: 131px;*/
+    margin-top: 20px;
+}
+.elec-top, .sta-top{
+    margin-top: 0px;
+    height: 370px;
+    width: 1002px;
+}
+.pic01{
+    margin-top: 0px;
+    width: 611px;
+    height: 370px;
+    border: 0.5px solid rgb(245, 245, 245);
+    background-color: rgb(245, 245, 245);
+    transition: all .3s;
+    float: left;
+}
+
+.pic01-detail{
+    width: 250px;
+    height: 230px;
+    margin-top: 32px;
+    margin-left: 50px;
+}
+.pic01-name{
+    width: 250px;
+    font-size: 30px;
+
+    display: -webkit-box;  /**对象作为伸缩盒子模型展示**/
+    text-overflow: -o-ellipsis-lastline;  
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;  /**显示的行数**/
+    -webkit-box-orient: vertical; /**设置或检索伸缩盒子对象的子元素的排列方式**/
+    word-break: break-all;
+}
+.pic01-pro{
+    margin-top: 15px;
+    width: 210px;
+    font-size: 12px;
+    
+    display: -webkit-box;  /**对象作为伸缩盒子模型展示**/
+    text-overflow: -o-ellipsis-lastline;  
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 3;  /**显示的行数**/
+    -webkit-box-orient: vertical; /**设置或检索伸缩盒子对象的子元素的排列方式**/
+    word-break: break-all;
+}
+.pic01-price{
+    margin-top: 36px;
+    width: 150px;
+    height: 30px;
+    color: rgb(71, 156, 236);
+    font-size: 24px;
+}
+.pic01-button{
+    margin-right: 80px;
+    margin-top: 15px;
+    width: 133px;
+    height: 36px;
+    background-color: rgb(40, 144, 241);
+    border: 0;
+    border-radius: 3px;
+    transition: all .3s;
+    color: white;
+    font-size: 16px;
+}
+.pic01-button:hover{
+    background-color: rgb(8, 127, 238);
+}
+.pic01 img{
+    width: 300px;
+    height: 319px;
+    float: left;
+    margin-bottom: 30px;
+}
+.pic02{
+    margin-left: 10px;
+    width: 377px;
+    height: 370px;
+    display: block;
+    background-color: rgb(245, 245, 245);
+    overflow: hidden;
+    float: left;
+}
+.pic02-detail{
+    width: 230px;
+    height: 300px;
+    float: left;
+    margin-top: 32px;
+    margin-left: 35px;
+}
+.elec-bottom, .sta-bottom{
+    width: 1002px;
+    height: 239px;
+    margin-top: 10px;
+}
+.classify{
+    width: 375px;
+    height: 238px;
+    float: left;
+    background-color: rgb(245, 245, 245);
+}
+.classify-title{
+    width: 375px;
+    height: 36px;
+    background-color: rgb(89, 172, 250);
+    border-radius: 2px;
+    color: white;
+    font-size: 16px;
+}
+.ct{
+    height: 25px;
+    width: 100px;
+    margin-left: 15px;
+    padding-top: 6px;
+    display: block;
+}
+.c-t1, .c-t2, .c-t3{
+    margin-left: 25px;
+    margin-bottom: 0;
+    margin-top: 18px;
+    font-size: 14px;
+    color: rgb(18, 134, 243);
+}
+.c-ul{
+    height: 18px;
+    width: 300px;
+    margin-left: 25px;
+    font-size: 13px;
+    margin-top: 2px;
+    padding: 0;
+}
+.c-d1, .c-d2, .c-d3{
+    margin-right: 12px;
+    margin-top: 0;
+}
+.c-ul .c-d1 a, .c-ul .c-d2 a, .c-ul .c-d3 a{
+    color: rgb(71, 156, 236);
+}
+.c-ul .c-d1 a:hover, .c-ul .c-d2 a:hover, .c-ul .c-d3 a:hover{
+    color: rgb(43, 145, 241);
+}
+.pic03, .pic04, .pic05{
+    width: 198px;
+    height: 238px;
+    margin-left: 10px;
+    background-color: rgb(245, 245, 245);
+    float: left;
+}
+.pic03>img, .pic04>img, .pic05>img{
+    margin-left: 24px;
+}
+.pic03-name{
+    font-size: 12px;
+    text-align: center;
+    max-width: 180px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto;
+}
+.pic03-price{
+    max-width: 198px;
+    height: 15px;
+    font-size: 13px;
+    color: rgb(71, 156, 236);
+    margin-top: 5px;
+    text-align: center;
+}
+.pic03-button{
+    width: 105px;
+    height: 24px;
+    background-color: rgb(40, 144, 241);
+    border: 0;
+    border-radius: 2px;
+    margin-left: 43px;
+    margin-top: 5px;
+    transition: all .3s;
+    color: white;
+}
+.pic03-button:hover{
+    background-color: rgb(8, 127, 238);
+}

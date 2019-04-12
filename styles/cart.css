@@ -1,0 +1,212 @@
+#all-cart{
+    width: 1000px;
+    position: relative;
+    margin-left: -500px;
+    left: 50%;
+}
+#cart{
+    width: 1000px;
+    margin-top: 35px;
+    /*margin-left: 131px;*/
+}
+#cart-title{
+    width: 1000px;
+    height: 36px;
+    border-bottom: 1px solid rgb(178, 178, 178);
+}
+#cart-title ul li{
+    width: 100px;
+    text-align: center;
+    height: 34px;
+    margin-top: 2px;
+}
+.onclick-color{
+    color: rgb(33, 155, 236);
+    border-bottom: 1px solid rgb(33, 155, 236);
+}
+.onblur-color{
+    color: rgb(100,100,100);
+    border-bottom: 1px solid rgb(178, 178, 178);
+}
+#cart-title span{
+    color: rgb(100,100,100);
+    font-size: 13px;
+    margin-left: 18px;
+    margin-top: 6px;
+}
+.c-count, .c-money{
+    font-size: 15px;
+    color: rgb(33, 155, 236);
+    padding: 3px;
+}
+
+#c-box{
+    width: 1000px;
+    height: auto;
+}
+#info-top{
+    width: 1000px;
+    height: 35px;
+    background: -webkit-linear-gradient(top,rgb(245,245,245),rgb(238,238,238)); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(top,rgb(245,245,245),rgb(238,238,238)); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(top,rgb(245,245,245),rgb(238,238,238)); /* Firefox 3.6 - 15 */
+    background: linear-gradient(top,rgb(245,245,245),rgb(238,238,238)); 
+    font-size: 13px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    box-shadow: 0 2px 12px rgb(206, 206, 206);
+    color: rgb(100,100,100);
+}
+.g-tags{
+    height: 28px;
+    padding-top: 7px;
+    text-align: center;
+}
+#all{
+    width: 62px;
+}
+#g-pro{
+    width: 380px;
+}
+#g-price{
+    width: 152px;
+}
+#g-num{
+    width: 150px;
+}
+#g-money{
+    width: 130px;
+}
+#g-del{
+    width: 126px;
+}
+
+.prod{
+    width: 1000px;
+    height: 115px;
+    border: 1px solid rgb(238,238,238);
+    margin-top: 20px;
+}
+.prod:hover{
+    background-color: rgb(250,250,250);
+}
+.choose{
+    width: 37px;
+    height: 69px;
+    padding-left: 25px;
+    padding-top: 46px;
+}
+.prod-pro{
+    width: 380px;
+    height: 100px;
+    padding-top: 15px;
+    border-right: 1px solid rgb(238,238,238);
+}
+.prod-pro img{
+    margin-right: 5px;
+}
+.detail{
+    font-size: 11px;
+    width: 280px;
+    height: 40px;
+    color: rgb(100,100,100);
+    margin-left: 10px;
+}
+.prod-color{
+    color: rgb(36, 36, 36);
+    font-size: 11px;
+    margin-left: 10px;
+}
+.prod-price, .prod-money, .prod-del{
+    width: 152px;
+    height: 65px;
+    border-right: 1px solid rgb(238,238,238);
+    color: rgb(100,100,100);
+    font-size: 12px;
+    text-align: center;
+    padding-top: 50px;
+}
+.prod-num{
+    width: 113px;
+    height: 70px;
+    border-right: 1px solid rgb(238,238,238);
+    padding-top: 45px;
+    padding-left: 37px;
+}
+.reduce, .plus{
+    width: 24px;
+    height: 22px;
+    padding-top: 2px;
+    border: 1px solid rgb(178, 178, 178);
+    background-color: rgb(238,238,238);
+    font-size: 14px;
+    text-align: center;
+    color: rgb(100,100,100);
+    cursor: pointer;
+}
+.prod-num input{
+    width: 24px;
+    height: 22px;
+    border-top: 1px solid rgb(178, 178, 178);
+    border-bottom: 1px solid rgb(178, 178, 178);
+    border-left: 0;
+    border-right: 0;
+    text-align: center;
+    color: rgb(100,100,100);
+    font-size: 12px;
+}
+.prod-money{
+    width: 130px;
+}
+.prod-del{
+    width: 122px;
+    border: 0;
+}
+.prod-del a, .del a{
+    color: rgb(100,100,100);
+}
+.prod-del a:hover, .del a:hover{
+    color: rgb(33, 155, 236);
+}
+
+.total{
+    width: 1000px;
+    height: 36px;
+    background-color: rgb(245,245,245);
+    margin-top: 25px;
+    color: rgb(100,100,100);
+    font-size: 13px;
+}
+.del{
+    width: 30px;
+    height: 29px;
+    margin-top: 7px;
+    margin-left: 5px;
+}
+.t-button{
+    width: 120px;
+    height: 29px;
+    background-color: rgb(33, 155, 236);
+    color: rgb(250,250,250);
+    border: 0;
+    margin-left: 15px;
+    border-radius: 2px;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 7px;
+}
+.t-button:hover{
+    background-color: rgb(5, 139, 228);
+}
+.t-count, .t-money{
+    width: auto;
+    height: 29px;
+    margin-top: 7px;
+}
+
+.normal, .t-button{
+    cursor: pointer;
+}
+.plus:hover, .reduce:hover{
+    background-color: rgb(218, 218, 218);
+}

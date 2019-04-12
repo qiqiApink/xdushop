@@ -1,0 +1,110 @@
+.info{
+    width: 1000px;
+    left: 50%;
+    margin-left: -500px;
+    position: relative;
+    margin-top: 35px;
+}
+#sidebox{
+    width: 160px;
+    height: auto;
+    color: rgb(250,250,250);
+}
+dl,dt,dd{
+    display:block;
+    margin:0;
+}
+#sidebox .icon{
+    font-size: 13px;
+    color: rgb(250,250,250);
+    margin-right: 5px;
+}
+#sidebox dl{
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+#sidebox dt{
+    background-color: rgb(33, 155, 236);
+    height: 26px;
+    padding-top: 7px;
+    cursor: pointer;
+}
+#sidebox dd{
+    background-color: rgb(250,250,250);
+    height: 25px;
+    padding-top: 7px;
+    /*border: 1px solid black;*/
+    font-size: 13px;
+}
+#sidebox dd a{
+    color: rgb(31, 31, 31);
+}
+#sidebox dd a:hover{
+    color: rgb(33, 155, 236);
+}
+
+.right-side{
+    width: 820px;
+    height: 300px;
+    background: rgb(250,250,250);
+    margin-left: 180px;
+}
+.title{
+    width: 805px;
+    height: 28px;
+    padding-left: 15px;
+    padding-top: 7px;
+    font-size: 14px;
+    color: rgb(77, 77, 77);
+    background: -webkit-linear-gradient(top,rgb(245, 245, 245),rgb(220,220,220)); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(top,rgb(245, 245, 245),rgb(220,220,220)); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(top,rgb(245, 245, 245),rgb(220,220,220)); /* Firefox 3.6 - 15 */
+    background: linear-gradient(top,rgb(245, 245, 245),rgb(220,220,220)); 
+}
+.input{
+    height: 30px;
+    width: 700px;
+    margin-top: 18px;
+    margin-left: 15px;
+
+}
+.star{
+    color: red;
+}
+.label{
+    color: rgb(77, 77, 77);
+    font-size: 14px;
+}
+.right-side input{
+    width: 160px;
+    height: 22px;
+    border-radius: 2px;
+    border: .5px solid rgb(220,220,220);
+    color: rgb(77, 77, 77);
+    font-size: 15px;
+}
+.right-side input:focus{
+    border: .5px solid rgb(33, 155, 236);
+}
+.right-side #save:hover{
+    box-shadow: 0px 0px 5px rgb(90, 90, 90);
+}
+#op-msg, #np-msg, #cp-msg, #save-msg{
+    color: red;
+    font-size: 13px;
+    margin-left: 10px;
+}
+#save{
+    background: rgb(33,155,236);
+    color: rgb(250,250,250);
+    border: 0;
+    width: 135px;
+    height: 28px;
+    margin-left: 22px;
+    margin-top: 30px;
+    border-radius: 2px;
+    font-weight: normal;
+    font-size: 14px;
+    cursor: pointer;
+}

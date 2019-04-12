@@ -1,0 +1,204 @@
+.orders{
+    width: 1000px;
+    left: 50%;
+    margin-left: -500px;
+    position: relative;
+    margin-top: 35px;
+    height: auto;
+}
+#sidebox{
+    width: 160px;
+    height: auto;
+    color: rgb(250,250,250);
+}
+dl,dt,dd{
+    display:block;
+    margin:0;
+}
+#sidebox .icon{
+    font-size: 13px;
+    color: rgb(250,250,250);
+    margin-right: 5px;
+}
+#sidebox dl{
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+#sidebox dt{
+    background-color: rgb(33, 155, 236);
+    height: 26px;
+    padding-top: 7px;
+    cursor: pointer;
+}
+#sidebox dd{
+    background-color: rgb(250,250,250);
+    height: 25px;
+    padding-top: 7px;
+    /*border: 1px solid black;*/
+    font-size: 13px;
+}
+#sidebox dd a{
+    color: rgb(31, 31, 31);
+}
+#sidebox dd a:hover{
+    color: rgb(33, 155, 236);
+}
+
+#right-side{
+    width: 820px;
+    margin-left: 180px;
+    height: auto;
+}
+.o-header{
+    width: 820px;
+    height: 27px;
+    background: -moz-linear-gradient(rgb(246,246,246),rgb(232,232,232));
+    background: linear-gradient(rgb(246,246,246),rgb(232,232,232));
+    background: -o-linear-gradient(rgb(246,246,246),rgb(232,232,232));
+    color: rgb(51, 51, 51);
+    font-size: 13px;
+    padding-top: 3px;
+    box-shadow: 0px 3px 7px rgb(212, 212, 212);
+}
+.o-tags{
+    height: 24px;
+    text-align: center;
+    padding-top: 3px;
+}
+#o-pro{
+    width: 345px;
+}
+#o-price{
+    width: 85px;
+}
+#o-num{
+    width: 60px;
+}
+#o-money{
+    width: 85px;
+}
+#o-deal{
+    width: 115px;
+}
+#o-op{
+    width: 123px;
+}
+
+.order-item{
+    height: 145px;
+    width: 820px;
+    margin-top: 20px;
+    box-shadow: 2px 2px 3px rgb(212, 212, 212);
+}
+.o-title{
+    height: 21px;
+    width: 820px;
+    margin: 0;
+    background-color: rgb(235, 235, 235);
+    color: rgb(70,70,70);
+    font-size: 12px;
+    padding-top: 3px;
+}
+.o-number{
+    margin-right: 20px;
+    margin-left: 10px;
+    margin-top: 1px;
+}
+.o-time{
+    margin-top: 1px;
+}
+.o-details{
+    width: 820px;
+    height: 120px;
+    background-color: rgb(250,250,250);
+    color: rgb(70,70,70);
+    text-align: center;
+}
+.i-pro{
+    width: 345px;
+    height: 120px;
+}
+.pro-img{
+    margin-left: 12px;
+    margin-top: 18px;
+}
+.pro-pro{
+    margin-left: 15px;
+    margin-top: 15px;
+    width: 220px;
+    display: -webkit-box;  /**对象作为伸缩盒子模型展示**/
+    text-overflow: -o-ellipsis-lastline;  
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;  /**显示的行数**/
+    -webkit-box-orient: vertical; /**设置或检索伸缩盒子对象的子元素的排列方式**/
+    word-break: break-all;
+    text-align: initial;
+}
+.pro-pro a{
+    font-size: 11px;
+    color: rgb(70,70,70);
+}
+.pro-pro a:hover{
+    text-decoration: underline;
+}
+.pro-color{
+    font-size: 11px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.i-price{
+    font-size: 14px;
+    width: 85px;
+    height: 70px;
+    padding-top: 50px;
+}
+.i-num{
+    width: 60px;
+    height: 70px;
+    padding-top: 50px;
+    font-size: 14px;
+}
+.i-money{
+    width: 85px;
+    height: 70px;
+    font-size: 14px;
+    padding-top: 50px;
+}
+.i-deal{
+    width: 115px;
+    height: 85px;
+    padding-top: 35px;
+}
+.i-deal a{
+    color: rgb(70,70,70);
+    font-size: 13px;
+}
+.i-deal a:hover{
+    color: rgb(33, 155, 236);
+}
+.i-op{
+    width: 123px;
+    height: 120px;
+    padding-top: 12px;
+}
+.i-pro, .i-price, .i-num, .i-money, .i-deal{
+    border-right: 1px solid rgb(235, 235, 235);
+}
+.i-op button{
+    width: 100px;
+    height: 25px;
+    margin-left: 13px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    background-color: rgb(33, 155, 236);
+    color: rgb(250,250,250);
+    font-size: 12px;
+}
+.i-op button:hover{
+    background-color: rgb(6, 139, 228);
+}
+#all-count{
+    color: rgb(33, 155, 236);
+}

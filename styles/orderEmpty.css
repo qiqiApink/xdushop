@@ -1,0 +1,25 @@
+.no-order{
+    width: 820px;
+    height: 500px;
+    text-align: center;
+    padding-top: 80px;
+}
+.no-order p{
+    color: rgb(70,70,70);
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+#gotoshop{
+    margin-top: 10px;
+}
+#gotoshop span{
+    margin-right: 15px;
+}
+#gotoshop a{
+    color: rgb(35, 145, 235);
+}
+#gotoshop a:hover{
+    color: rgb(8, 132, 235);
+    text-decoration: underline;
+}

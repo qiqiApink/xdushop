@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>西电学子商城注册页面</title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" type="text/css" href="./styles/login.css">
+        <link rel="stylesheet" type="text/css" href="./styles/footer.css">
+        <link rel="stylesheet" type="text/css" href="./styles/common.css">
+        <script src="./scripts/register.js"></script>
+        <style>
+            .container .form .input{
+                width: 335px;
+                height: 30px;
+            }
+            h3{
+                font-size: 16.5px;
+            }
+            #name_msg, #pwd_msg, #ver_msg, #again_msg, #email_msg{
+                font-size: 12.8px;
+                height: 22px;
+                width: 350px;
+                float: left;
+                margin-top: 1px;
+                margin-left: 20px;
+                padding-left: 5px;
+                padding-top: 0px;
+            }
+            .span{
+                height: 25px;
+            }
+            .icon{
+                font-size: 22px;
+            }
+            footer{
+                margin: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div></div>
+        </header>
+        <div class="container">
+            <div class="logo">
+                <img alt="" src="./images/logo.png"/>
+            </div>
+            <div class="form" style="height:420px; width:420px;top:91px;">
+                <form enctype="multipart/form-data" action="doAction.php?act=reg" method="post" autocomplete="off" onsubmit="return checkForm();">
+                    <h3>西电学子商城用户注册<a href="./login.html" style="margin-top:4px;">已有账号？去登录！</a></h3>
+                    <div>
+                        <input onblur="checkName()" class="input" id="uname" placeholder="请输入用户名" type="text" name="username"/>
+                        <span class="icon span">&#xf007;</span>
+                    </div>
+                    <span id="name_msg">&nbsp;</span>
+                    <div>
+                        <input onblur="checkPwd()" class="input" id="passwd" placeholder="请输入密码" type="password" name="password"/>
+                        <span class="icon span" style="font-size: 24px; margin-top:-3px;">&#xf023;</span>
+                    </div>
+                    <span id="pwd_msg" style="position: relative;">&nbsp;</span>
+                    <div>
+                        <input onblur="checkAgain()" class="input" id="again" placeholder="请输入再次输入密码" type="password" name="comfirm"/>
+                        <span class="icon span" style="margin-top:0px; font-size: 20px;">&#xf046;</span>
+                    </div>
+                    <span id="again_msg">&nbsp;</span>
+                    <div>
+                        <input onblur="checkEmail()" class="input" id="email" placeholder="请输入邮箱" type="text" name="email"/>
+                        <span class="icon span" style="font-size: 18px;">&#xf003;</span>
+                    </div>
+                    <span id="email_msg">&nbsp;</span>
+                    <div class="verify">
+                        <input onblur="checkVerify()" style="width: 160px"type="text" id="verify" class="fl input" name="verify" placeholder="请输入验证码"/>
+                        <span class="verify-img fl" style="margin-left: 12px;"><img id="capture" src="./admin/getVerify.php"/></span>
+                        <span id="change-img"><a href="#" onclick="javascript:refresh();">换一张</a></span>
+                    </div>
+                    <span id="ver_msg">&nbsp;</span>
+                    <input id="login-button" style="width: 370px; margin-top: 13px;" type="submit" value="注    册" name="submit"/>
+                </form>
+            </div>
+        </div>
+
+        <footer>
+            <div class="footer-box01">
+                <ul class="quality">
+                    <li>
+                        <img src="./images/footer/icon1.png" alt=""/>
+                        <p>品质保障</p>
+                    </li>
+                    <li>
+                        <img src="./images/footer/icon2.png" alt=""/>
+                        <p>私人定制</p>
+                    </li>
+                    <li>
+                        <img src="./images/footer/icon3.png" alt=""/>
+                        <p>学生特供</p>
+                    </li>
+                    <li>
+                        <img src="./images/footer/icon4.png" alt=""/>
+                        <p>专属特权</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-box02">
+                <p id="p1">有问题或建议请联系：前端(<a>643342586@qq.com</a>)&nbsp;&nbsp;&nbsp;后端(<a href="#">1165394984@qq.com</a>)</p>
+                <p id="p2">Copyright&nbsp;&copy;&nbsp;2018</p>
+            </div>
+        </footer>
+    </body>
+</html>

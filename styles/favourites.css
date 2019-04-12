@@ -1,0 +1,349 @@
+input::-webkit-input-placeholder,textarea::-webkit-input-placeholder{ 
+    color: rgb(172, 172, 172);
+}
+input:-moz-placeholder,textarea:-moz-placeholder{ 
+    color:rgb(172, 172, 172); 
+}
+input::-moz-placeholder,textarea::-moz-placeholder{ 
+    color:rgb(172, 172, 172);
+} 
+input:-ms-input-placeholder,textarea:-ms-input-placeholder{ 
+    color: rgb(172, 172, 172);
+}
+
+#all-fav{
+    width: 1000px;
+    left: 50%;
+    margin-left: -500px;
+    position: relative;
+}
+#fav{
+    width: 1000px;
+    margin-top: 30px;
+    /*margin-left: 131px;*/
+}
+#b-title{
+    height: 42px;
+    width: 1000px;
+    background-color: rgb(245,245,245);
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+#fav-goods, #fav-stores{
+    display: block;
+    width: 100px;
+    height: 32px;
+    padding-top: 10px;
+    text-align: center;
+    transition: all .3s;
+    font-weight: bold;
+}
+#b-title ul a, #s-title ul a{
+    color: rgb(121, 121, 121);
+}
+
+.tb-onclick{
+    background-color: rgb(33, 155, 236);
+    color: rgb(245,245,245);
+}
+.tb-onblur{
+    background-color: rgb(245,245,245);
+    color: rgb(121, 121, 121);
+}
+
+#fav-s-icon{
+    padding-top: 7px;
+    margin-right: 15px;
+    margin-left: 5px;
+}
+#b-title input{
+    width: 180px;
+    height: 25px;
+    background-color: white;
+    border: 1px solid rgb(172, 172, 172);
+    border-radius: 6px;
+    margin-top: 7px;
+    color: rgb(121, 121, 121);
+}
+#s-title{
+    height: 35px;
+    width: 1000px;
+    border-bottom: 1px solid rgb(245,245,245);
+}
+.ts-onclick{
+    color: rgb(121, 121, 121);
+    border-bottom: 1px solid rgb(121, 121, 121);
+}
+.ts-onblur{
+    color: rgb(172, 172, 172);
+    border-bottom: 1px solid rgb(245,245,245);
+}
+#s-title ul li{
+    width: 80px;
+    height: 25px;
+    padding-top: 10px;
+    font-size: 13px;
+    text-align: center;
+}
+#s-title ul li:hover{
+    color: rgb(121, 121, 121);
+}
+#manage-button{
+    width: 100px;
+    height: 19px;
+    background-color: white;
+    border: 1px solid rgb(201, 201, 201);
+    color: rgb(172, 172, 172);
+    border-radius: 3px;
+    margin-top: 8px;
+    transition: all .3s;
+    cursor: pointer;
+    text-align: center;
+    font-size: 13px;
+    padding-top: 1px;
+}
+#manage-button:hover{
+    color: rgb(121, 121, 121);
+    border: 1px solid rgb(121, 121, 121);
+}
+.h-tag{
+    color: rgb(172, 172, 172);
+}
+#s-hidden li{
+    float: left;
+    height: 25px;
+    font-size: 13px;
+    text-align: center;
+    color: rgb(172, 172, 172);
+}
+#s-hidden li:hover, .h-tag:hover{
+    color: rgb(121, 121, 121);
+}
+#choose-all{
+    margin-left: 400px;
+}
+#choose-all span img{
+    margin-top: 3px;
+    padding-left: 35px;
+    cursor: pointer;
+}
+#contents{
+    margin-top: 30px;
+    position: relative;
+    width: 1000px;
+    height: auto;
+}
+.f-good{
+    width: 230px;
+    height: 240px;
+    border: 1px solid #d9d9d9;
+    margin-right: 7px;
+    margin-left: 7px;
+    margin-bottom: 25px;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+.f-good:hover{
+    box-shadow: 0 0 20px #d9d9d9;
+}
+#contents .img{
+    width:230px;
+    height:180px ;
+    overflow: hidden;
+    border-bottom:1px solid #d9d9d9;
+}
+.fav-describe p{
+    font-size: 11px;
+    margin-top: 3px;
+    margin-bottom: 4px;
+    margin-left: 6px;
+    color: rgb(77, 77, 77);
+    height: 30px;
+
+    display: -webkit-box;  /**对象作为伸缩盒子模型展示**/
+    text-overflow: -o-ellipsis-lastline;  
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;  /**显示的行数**/
+    -webkit-box-orient: vertical; /**设置或检索伸缩盒子对象的子元素的排列方式**/
+    word-break: break-all;
+}
+.fav-price{
+    color: rgb(76, 155, 230);
+    font-size: 13px;
+    padding-bottom: 5px;
+    margin-left: 6px;
+}
+.fav-input{
+    font-size: 12px;
+    color: rgb(77, 77, 77);
+    margin-right: 6px;
+}
+.fav-input:hover{
+    color: rgb(76, 155, 230);
+}
+.mask{
+    background-color: rgba(0, 0, 0, .15);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 230px;
+    height: 240px;
+    border: 1px solid rgb(168, 168, 168);
+}
+
+/*模态框*/
+.modal,.modalNo,.modalAdd,.modalYi{
+    position:fixed;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    background: rgba(0,0,0,0.3);
+    z-index:9999;
+}
+.modal_dialog{
+    width:400px;
+    height:200px;
+    margin:172px auto;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+.modal_header{
+    width: 380px;
+    height:42px;
+    line-height: 42px;
+    background: #0aa1ed;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    font-size: 16px;
+    padding-left: 20px;
+}
+.modal_information{
+    width:254px;
+    margin:0 auto;
+    margin-top:21px;
+    font-size: 16px;
+}
+.modalNo .modal_information,.modalAdd .modal_information{
+    width:169px;
+    margin:0 auto;
+    margin-top:44px;
+    font-size: 16px;
+}
+.modal_information>span{
+    position: relative;
+    top:-20px;
+}
+.yes,.no{
+    display: inline-block;
+    width:124px;
+    height:42px;
+    line-height: 42px;
+    border-radius: 10px;
+    font-size: 16px;
+    background: #ccc;
+    margin-top:17px;
+    cursor: pointer;
+    color: #fff;
+    text-align: center;
+}
+.yes{
+    margin-left:52px;
+    margin-right: 48px;
+    background: #0aa1ed;
+}
+
+.none{
+    text-align: center;
+    width: 1000px;
+    margin: 0 auto;
+    display:block;
+}
+.none_title{
+    width:100%;
+    font:18px 'microsoft yahei';
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 6px;
+    color: #333;
+    display:block;
+}
+.none_content{
+    width:365px;
+    height:56px;
+    margin: 89px auto;
+    color:#bababa;
+    display:block;
+}
+.none_content>p{
+    font-size: 18px;
+
+    margin-top: 10px;
+    margin-bottom: 3px;
+}
+.none_content>img{
+    margin-right: 10px;
+}
+.none_content>a{
+    color: #0aa1ed;
+}
+.close{
+    position: relative;
+    top:16px;
+    right:20px;
+    cursor: pointer;
+}
+.del>div{
+    float: left;
+    position: relative;
+    top:34px;
+    left:24px;
+    z-index: 999;
+    width:100px;
+    height:24px;
+    line-height: 24px;
+    border: 1px solid #0aa1ed;
+    display:none;
+    background: white;
+}
+.foot>.sure{
+    float: left;
+    position: relative;
+    top:8px;
+    left:4px;
+    z-index: 999;
+    width:100px;
+    height:24px;
+    line-height: 24px;
+    border: 1px solid #0aa1ed;
+    display: none;
+    background: white;
+    padding-left: 10px;
+}
+.sure>img{
+    position: relative;
+    top:1px;
+}
+.succee{
+    background: #fff;
+    display: inline-block;
+    width:100px;
+    height:20px;
+    position: absolute;
+    bottom: 5px;
+    right: 0px;
+}
+.succee>img{
+    position: absolute;
+    top:1px;
+    left:-20px;
+}
+.display-none{
+    display: none;
+}
+.display-on{
+}

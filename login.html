@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>西电学子商城登陆页面</title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" type="text/css" href="./styles/login.css">
+        <link rel="stylesheet" type="text/css" href="./styles/footer.css">
+        <link rel="stylesheet" type="text/css" href="./styles/common.css">
+        <script src="./scripts/login.js"></script>
+        <style>
+            footer{
+                margin: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div></div>
+        </header>
+        <div class="container">
+            <div class="logo">
+                <img alt="" src="./images/logo.png"/>
+            </div>
+            <div class="form">
+                <form action="doAction.php?act=login" method="post" autocomplete="off" onsubmit="return checkForm();">
+                    <h3>登录西电学子商城<a href="register.html">没有账号？现在注册！</a></h3>
+                    <div>
+                        <input onblur="checkName()" class="input" id="uname" placeholder="请输入用户名" type="text" name="username"/>
+                        <span class="icon span">&#xf007;</span>
+                    </div>
+                    <span id="name_msg">&nbsp;</span>
+                    <div>
+                        <input onblur="checkPwd()" class="input" id="passwd" placeholder="请输入密码" type="password" name="password"/>
+                        <span class="icon span">&#xf023;</span>
+                    </div>
+                    <span id="pwd_msg" style="position: relative;">&nbsp;</span>
+                    <div class="verify">
+                        <input onblur="checkVerify()" type="text" id="verify" class="fl" name="verify" placeholder="请输入验证码"/>
+                        <span class="verify-img fl"><img id="capture" src="./admin/getVerify.php"/></span>
+                        <span id="change-img"><a href="#" onclick="javascript:refresh();">看不清？换一张</a></span>
+                    </div>
+                    <span id="ver_msg">&nbsp;</span>
+                    <div class="check">
+                        <input style="margin-top: 2px; margin-left: 0px;" type="checkbox" value="true" name="autoFlag" class="fl"/>
+                        <label for="check" id="remember">记住密码</label> 
+                        <span id="forgot-passwd" class="fr"><a href="#">忘记密码？</a></span>
+                    </div>
+                    <input id="login-button" type="submit" value="登    录" name="submit"/>
+                </form>
+            </div>
+        </div>
+        <footer>
+            <div class="footer-box01">
+                <ul class="quality">
+                    <li>
+                        <img src="./images/footer/icon1.png" alt=""/>
+                        <p>品质保障</p>
+                    </li>
+                    <li>
+                        <img src="./images/footer/icon2.png" alt=""/>
+                        <p>私人定制</p>
+                    </li>
+                    <li>
+                        <img src="./images/footer/icon3.png" alt=""/>
+                        <p>学生特供</p>
+                    </li>
+                    <li>
+                        <img src="./images/footer/icon4.png" alt=""/>
+                        <p>专属特权</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-box02">
+                <p id="p1">有问题或建议请联系：前端(<a>643342586@qq.com</a>)&nbsp;&nbsp;&nbsp;后端(<a href="#">1165394984@qq.com</a>)</p>
+                <p id="p2">Copyright&nbsp;&copy;&nbsp;2018</p>
+            </div>
+        </footer>
+    </body>
+</html>

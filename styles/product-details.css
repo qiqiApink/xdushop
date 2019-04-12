@@ -1,0 +1,175 @@
+#all-info{
+    width: 1000px;
+    left: 50%;
+    margin-left: -500px;
+    position: relative;
+}
+#shop-detail{
+    width: 1000px;
+    min-height: 500px;
+    margin-top: 35px;
+    color: rgb(60,60,60);
+}
+#detail-top{
+    min-height: 500px;
+    width: 1000px;
+}
+#header-left{
+    width: 470px;
+    height: 455px;
+    margin-bottom: 5px;
+}
+#img-display ul li{
+    margin-top: 3px;
+    margin-right: 10px;
+}
+#header-right{
+    width: 480px;
+    height: auto;
+    margin-left: 515px;
+}
+#header-right h1{
+    margin: 0;
+    font-size: 27px;
+    color: rgb(60,60,60);
+    word-break: break-all;
+}
+#header-right h3{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    color: rgb(60,60,60);
+    font-size: 15px;
+    white-space: normal;
+    word-break: break-all;
+}
+#price{
+    width: 475px;
+    height: 92px;
+    margin-top: 20px;
+    color: rgb(100,100,100);
+    background: -moz-linear-gradient(top, #f8f8f8 0%, #e5e5e5 100%);
+    background: -webkit-linear-gradient(top, #f8f8f8 0%, #e5e5e5 100%);
+    background: -o-linear-gradient(top, #f8f8f8 0%, #e5e5e5 100%);
+    background: -ms-linear-gradient(top, #f8f8f8 0%, #e5e5e5 100%);
+    box-shadow: 0px 0px 10px #ccc;
+    border-radius: 3px;
+    padding-top: 15px;
+    padding-left: 5px;
+    margin-bottom: 25px;
+}
+#price span{
+    font-size: 31px;
+    color: rgb(9, 151, 223);
+}
+#stu-price{
+    font-size: 13px;
+}
+#discount{
+    color: rgb(209, 24, 17);
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+#choose-color,#choose-size{
+    width: 480px;
+    height: 28px;
+    margin-top: 8px;
+    font-size: 13px;
+    padding-top: 7px;
+    color: rgb(145, 145, 145);
+}
+#choose-color ul li,#choose-size ul li{
+    width: 50px;
+    height: 23px;
+    margin-left: 8px;
+    text-align: center;
+    padding-top: 4px;
+}
+.onclick-color{
+    color: rgb(9, 151, 223);
+    border: 1px solid rgb(9, 151, 223);
+}
+.onblur-color{
+    border: 1px solid rgb(145, 145, 145);
+    color: rgb(145, 145, 145);
+}
+#choose-color ul li:hover,#choose-size ul li:hover{
+    color: rgb(9, 151, 223);
+    border: 1px solid rgb(9, 151, 223);
+    cursor: pointer;
+}
+#choose-size ul li{
+    width: 105px;
+}
+#choose-num{
+    width: 480px;
+    height: 28px;
+    margin-top: 20px;
+    color: rgb(145, 145, 145);
+    font-size: 13px;
+}
+.reduce, .plus{
+    width: 30px;
+    height: 26px;
+    padding-top: 2px;
+    border: 1px solid rgb(178, 178, 178);
+    background-color: rgb(238,238,238);
+    font-size: 16px;
+    text-align: center;
+    color: rgb(100,100,100);
+    cursor: pointer;
+}
+.reduce:hover, .plus:hover{
+    background-color: rgb(220, 220, 220);
+}
+#choose-num input{
+    width: 30px;
+    height: 26px;
+    border-top: 1px solid rgb(178, 178, 178);
+    border-bottom: 1px solid rgb(178, 178, 178);
+    border-left: 0;
+    border-right: 0;
+    text-align: center;
+    color: rgb(100,100,100);
+    font-size: 12px;
+}
+#buttons{
+    width: 480px;
+    height: 60px;
+    margin-top: 60px;
+    font-size: 18px;
+}
+#buy-it{
+    width: 125px;
+    height: 45px;
+    background-color: rgb(250, 175, 64);
+    color: white;
+    border-radius: 3px;
+    font-size: 18px;
+}
+#into-cart{
+    width: 145px;
+    height: 45px;
+    background-color: rgb(9, 151, 223);
+    color: white;
+    border-radius: 3px;
+    font-size: 18px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+#fav-it{
+    height: 44px;
+    width: 45px;
+    background-color: rgb(9, 151, 223);
+    border-radius: 3px;
+}
+#fav-it .icon{
+    font-size: 22px;
+    color: white;
+}
+#fav-it .icon:hover{
+    color: rgb(253, 68, 68);
+}
+#buy-it:hover, #into-cart:hover{
+    box-shadow: 0 0 10px rgb(145, 145, 145);
+}
